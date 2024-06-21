@@ -1,0 +1,29 @@
+.detail-label{
+    font-weight: bold;
+}
+
+.view-user-container{
+    align-items: center;
+    justify-content:flex-start;
+    margin:auto;
+}
+.card shadow{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #15656b; /* Adjust the height to your preference */
+  }
+  .buttons .btn.btn {
+    background-color: #656666;
+    color: white;
+    border-radius: 1px;
+    border-color: #aeaeaf;
+    border-radius: 30px;
+    padding: 10px 20px;
+    
+    margin-top: 30px;
+  }

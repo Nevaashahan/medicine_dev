@@ -1,0 +1,120 @@
+/* Style the "Confirm" button */
+/* Navbar styles */
+/* Navbar styles */
+
+  
+  
+  /* Button styles */
+  .buttons .btn {
+    background-color: #656666;
+    color: white;
+    border-radius: 1px;
+    border-color: #8c8d8e;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 500px; /* Adjust to your desired width */
+    height: 600px; 
+    margin-left: 500px;
+
+  }
+  
+  /* Form styles */
+  .form {
+    padding: 20px;
+  }
+  
+  /* Card header styles */
+  .card-header {
+    background-color: #256b76;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  /* List group styles */
+  .list-group {
+    padding: 0;
+  }
+  
+  /* List item styles */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  /* Input styles */
+  .input {
+    margin-top: 20px;
+  }
+  
+  /* Input label styles */
+  .input-label {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  /* Input number styles */
+  .number-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Footer styles */
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Toast container styles */
+  .Toastify__toast-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: gray;
+  }
+  
+  /* Confirm and Back button styles */
+  .btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e6775;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+    transition: color 0.2s ease; 
+    
+  }
+  
+  /* Hover effect for buttons */
+  .btn2:hover {
+    background-color: #5b5d5f;
+  }
+  
+  .btn4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #737575;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1100px;
+    transition: color 0.2s ease; }
+
+    .btn4:hover {
+        background-color: #dbdde0;}

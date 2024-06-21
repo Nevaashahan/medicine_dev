@@ -1,0 +1,78 @@
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    color: #276e71;
+    
+  }
+  
+  .contact-form {
+    width: 400px;
+    background-color:  #1c6a6d; /* Change the background color */
+    padding: 20px;
+    border: 1px solid #7b7a7a;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight:normal
+    ;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color:rgb(185, 181, 181); /* Change the input background color */
+  }
+  
+  button {
+    background-color: #4d4f50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 150px;
+    margin-left:100px ;
+  }
+  
+  button:hover {
+    background-color: #aaaeb2;
+  }
+  .h1{
+    color: #96cce8;
+  }
+  .btn1{
+  
+    background-color: #d6dbdb; /* Change the background color to your desired color */
+    color: #0d7179; /* Change the text color */
+    border: 2px solid grey; /* Change the border color and thickness */
+    border-radius: 30px; /* Add rounded corners */
+    padding: 10px 20px;
+    margin-top: 10px; /* Adjust padding as needed */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    margin-right: 20px;
+  }
+  
+  .btn1:hover {
+    background-color: #565758; /* New background color on hover */
+    color: #fff; /* New text color on hover */
+    transform: scale(1.05); /* Slight scale increase on hover */
+  }

@@ -1,0 +1,261 @@
+
+.signupcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px;
+    background: #fff;
+    border: #e0e5e5;
+    border-width:medium;
+    /* padding-bottom: 30px; */
+    width: 500px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 510px;
+    filter: brightness(1);
+    border-radius: 30px;
+    
+    border: 2px solid #687476;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    
+    flex-direction: column;
+     /* Adjust the margin to create space */
+    background: #15656b;
+    
+    
+    padding: 20px;
+    border: 2px solid #687476;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    font-family: Arial, sans-serif;
+    opacity: 1;
+    
+
+}
+
+.header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text{
+    color: #babebe;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 75px;
+    height: 5px;
+    background: #c2c0c5;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20PX;
+    display: flex;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 10px;
+}
+/* .input img{
+    margin: 0px 10px;
+    width: 50px;
+    height: 50px;
+} */
+.input input{
+    height: 30px;
+    width: 350px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+
+.submit-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+    color:#676767
+
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color:rgb(134, 130, 130);
+    
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+ /* Apply styling to the button with the "btn" and "signup" classes */
+.btn.signup {
+    background-color:#727476; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove the default button border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 16px; 
+    margin-top:15px;
+    margin-left: 15PX;/* Font size */
+  }
+  
+  .btn.signup:hover {
+    background-color: #085151; /* Change the background color on hover */
+  }
+  
+  
+  .btn.cancel {
+    margin-top: 15px;
+    background-color: #727476; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove the default button border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 16px; 
+    margin-right: -10PX;/* Font size */
+  }
+  
+  .btn.cancel:hover {
+    background-color: #085151; /* Change the background color on hover */
+  }
+.gray{
+    background: grey;
+    color: #676767;
+}
+
+
+  
+
+
+
+
+
+
+.navbar navbar-expand-lg bg-primary {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    
+}
+
+.navbar-brand{
+    margin-left: 10px;
+   
+
+}
+
+.ml-auto{
+    align-items:flex-end;
+    display: flex;
+    justify-content:flex-end;
+    /* justify-items: end; */
+     margin-left:auto;
+     padding-left: 20px;
+    
+}
+
+.buttons{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.custom-background-for-signup {
+    background-image: url('../assets/background.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust to your needs */
+    background-position: center; /* Adjust to your needs */
+    /* Other background properties can be added here */
+    height:600PX;
+    display:flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(1);
+  }
+
+  .content{
+    margin-left:100px;
+    margin-top: 100px;
+    text-align: left;
+  }
+
+
+ /* .bg-navy {
+    background-color:rgb(17, 117, 114);
+    /*background-image: linear-gradient(180deg, #1d71c6 0%, navy 100%);*/
+  
+
+
+  .navbar-brand img {
+    width: 200px; /* Adjust the width to your preference */
+    height: auto; /* Maintain the aspect ratio */
+  }
+ /*
+  .submit-container .btn.btn-outline-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+  }
+  */
+  
+  .navbar {
+    height: 80px;
+    background-color: #15656b; /* Adjust the height to your preference */
+  }
+  .ToastContainer {
+    background-color:grey; /* Set your desired background color */
+    color:#15656b; /* Set the text color */
+    border-radius: 4px; /* Set border radius or other properties */
+    /* Add more styles as needed */
+  }
+  

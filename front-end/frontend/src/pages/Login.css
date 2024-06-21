@@ -1,0 +1,268 @@
+body {
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat; /* Replace with the path to your background image */
+    background-size: cover; 
+    width:100%;
+    /* Adjust to your needs */
+    background-position: center; /* Adjust to your needs */
+    /* Other background properties can be added here */
+    /* Ensure the background covers the entire viewport height */
+    margin: 0; /* Remove default body margin */
+  }
+  
+  .logincontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto; /* Adjust the margin to create space */
+    background: #15656b;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #687476;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    font-family: Arial, sans-serif;
+    opacity: 1;
+  }
+  
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.text{
+    color: #e6ede3;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 75px;
+    height: 7px;
+    background: #e7e6e9;
+    border-radius: 9px;
+}
+
+.inputss{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: right 50px;
+    
+    
+}
+.input{
+   /* display: flex;*/
+    align-items: center;
+    margin-right:10px;
+    width: 300px;
+    height: 40px;
+    background: #cdcbcb;
+    border-radius: 10px;
+    gap: 10px;
+}
+.input img{
+    margin:  10px; /* Center the image horizontally */
+         width: 25px; /* Increase the width to your desired size */
+         height: 25px; 
+         border-radius: 20px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #170b0b;
+    font-size: 19px;
+}
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color:#f0ebf6;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 10px;
+    margin: 60px auto;
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #e8e4ee;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+
+
+.text {
+    color: #d5dde0;
+    font-size: 36px; /* Adjust font size */
+    font-weight: 700;
+}
+  
+.underline{
+    width:61px;
+    height:6px;
+    background: #cacbcc;
+    border-radius: 9px;
+
+}
+
+.navbar {
+    height: 80px;
+    background-color: #15656b; /* Adjust the height to your preference */
+  }
+  
+  /* Resize the logo inside the navbar */
+  .navbar-brand img {
+    width: 200px; /* Adjust the width to your preference */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* Resize the buttons on the right side of the navbar */
+  .ml-auto .btn {
+    padding: 10px 20px; /* Adjust the padding to resize the buttons */
+    font-size: 18px; /* Adjust the font size of the buttons */
+  }
+  .nav-links {
+    list-style: none;
+    /*display: flex;*/
+    gap: 40px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin-left:250px;
+    color:#b3b8b9;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.2s ease; 
+    
+}
+.nav-links li a:hover {
+    color: #909234; 
+}
+/* Apply styling to the button with the "btn" and "login" classes */
+.btn.login {
+    background-color: #727476; /* Background color */
+    color:white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove the default button border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; 
+    transition: color 0.2s ease; 
+    margin-left: 30px;
+    margin-top: 5px;
+    /* Show a pointer cursor on hover */
+  }
+  
+  .btn.login:hover {
+    background-color: #4e4e4f; /* Change the background color on hover */
+  }
+  
+
+  
+  
+  
+  
+
+/* Make the image a block element to set its width and height */
+    /* Center the image horizontally */
+    
+
+
+   
+    
+        /* Make the image a block element to set its width and height */
+         /* Increase the height to your desired size */
+         /* Make the image a circle with rounded corners */
+       
+/* Make the image a circle with rounded corners */
+  
+/* CSS for the background image */
+
+  
+
+
+.navbar navbar-expand-lg bg-primary {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    
+}
+
+.navbar-brand{
+    margin-left: 10px;
+   
+
+}
+
+.ml-auto{
+    align-items:flex-end;
+    display: flex;
+    justify-content:flex-end;
+    /* justify-items: end; */
+     margin-left:auto;
+     padding-left: 20px;
+    
+}
+
+.buttons{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+  .content{
+    margin-left:100px;
+    margin-top: 100px;
+    text-align: left;
+  }
+
+  /*.bg-navy {
+    background-color: navy;
+    background-image: linear-gradient(180deg, #1DC690 0%, navy 100%)
+  }
+  
+
+    /* CSS for the background image */
+
+  
+
+
+
+
+
+
+
+

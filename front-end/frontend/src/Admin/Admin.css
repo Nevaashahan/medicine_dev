@@ -1,0 +1,108 @@
+.navbar navbar-expand-lg bg-primary {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    
+}
+
+.navbar-brand{
+    margin-left: 10px;
+   
+
+}
+
+.ml-auto{
+    align-items:flex-start;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 20px;
+    /* justify-items: end; */
+    
+}
+/* .btn btn-outline-light{
+    margin: 10px;
+} */
+
+
+
+.custom-background {
+    background-image: url('../assets/background.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust to your needs */
+    background-position: center; /* Adjust to your needs */
+    /* Other background properties can be added here */
+    height: 600px;
+    display:flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(0.4);
+  }
+
+  .content{
+    margin-left:100px;
+    margin-top: 100px;
+    text-align: left;
+  }
+
+  .table shadow{
+    display: flex;
+    height: auto;
+    width: auto;
+  }
+
+
+  .navbar {
+    height: 80px;
+    background-color: #15656b; /* Adjust the height to your preference */
+  }
+
+
+
+
+
+
+  .btn5 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e6775;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 60px;
+    transition: color 0.2s ease; 
+    
+  }
+  .btn6 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e6775;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 60px;
+    transition: color 0.2s ease; 
+    
+  }
+  .btn7 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e6775;
+    border: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 60px;
+    transition: color 0.2s ease; 
+    
+  }
+  .btn5:hover {
+    background-color: #5b5d5f;
+  }
+  .btn6:hover {
+    background-color: #5b5d5f;
+  }
+  .btn7:hover {
+    background-color: #5b5d5f;
+  }
