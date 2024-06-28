@@ -21,7 +21,7 @@ COPY . .
 RUN npm run build
 
 # Expose port 3005
-EXPOSE 3005
+EXPOSE 3000
 
 # Set the command to serve the app on port 3005
-CMD ["serve", "-s", "build", "-l", "3005"]
+CMD ["serve", "-s", "build", "-l", "3000"]
