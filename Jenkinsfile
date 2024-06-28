@@ -35,16 +35,17 @@ pipeline {
         //         }
         //     }
         // }
-                stage('Install Docker Compose') {
+        stage('Install Docker Compose') {
             steps {
                 script {
-                    // Check and install Docker Compose if not present
                     sh '''
                     if ! [ -x "$(command -v docker-compose)" ]; then
                         echo "docker-compose not found, installing..."
                         curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /tmp/docker-compose
                         chmod +x /tmp/docker-compose
-                        sudo mv /tmp/docker-compose /usr/local/bin/docker-compose
+                        mkdir -p $HOME/bin
+                        mv /tmp/docker-compose $HOME/bin/docker-compose
+                        export PATH=$HOME/bin:$PATH
                     else
                         echo "docker-compose is already installed"
                     fi
