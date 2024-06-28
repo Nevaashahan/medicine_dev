@@ -34,8 +34,7 @@ pipeline {
         //             }
         //         }
         //     }
-        // }
-                 stage('Install Docker Compose') {
+        // }     stage('Install Docker Compose') {
             steps {
                 script {
                     sh '''
@@ -43,6 +42,7 @@ pipeline {
                         echo "docker-compose not found, installing..."
                         curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o docker-compose
                         chmod +x docker-compose
+                        mkdir -p $HOME/bin
                         mv docker-compose $HOME/bin/docker-compose
                         export PATH=$HOME/bin:$PATH
                     else
