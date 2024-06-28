@@ -55,14 +55,11 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                script {
-                    // Stop and remove previous containers
-                    sh 'docker-compose down --remove-orphans'
-                    // Deploy using docker-compose
-                    sh 'docker-compose up --build -d'
-                   
+                withEnv(["PATH=/var/lib/jenkins/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"]) {
+                    script {
+                        sh 'docker-compose down --remove-orphans'
+                    }
                 }
             }
-        }
     }
 }
