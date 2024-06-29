@@ -20,8 +20,8 @@ COPY . .
 # Build the React app for production
 RUN npm run build
 
-# Expose port 3005
+# Expose port 3000
 EXPOSE 3000
 
-# Set the command to serve the app on port 3005
+# Set the command to serve the app on port 3000
 CMD ["serve", "-s", "build", "-l", "3000"]
