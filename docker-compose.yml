@@ -1,49 +1,41 @@
-# version: '3'
-# services:
-#   client:
-#     image: front-end-image:latest
-#     build:
-#       context: ./front-end
-#       dockerfile: Dockerfile
-#     ports:
-#       - "3000:3000"
-#     networks:
-#       - apps-net
+version: '3.8'
 
-#   server:
-#     image: back-end-image:latest
-#     build:
-#       context: ./back-end/springboot
-#       dockerfile: Dockerfile
-#     ports:
-#       - "8080:8080"
-#     networks:
-#       - apps-net
-#     depends_on:
-#       - mysqldb
-
-#   mysqldb:
-#     image: mysql:latest
-#     container_name: booking-mysqldb
-#     networks:
-#       - apps-net
-#     ports:
-#       - "3306:3306"
-#     environment:
-#       MYSQL_DATABASE: ticket_booking_website
-#       MYSQL_USER: thana
-#       MYSQL_PASSWORD: Thana@1234
-#       MYSQL_ROOT_PASSWORD: root_password
-
-# networks:
-#   apps-net:
-#     driver: bridge
-
-
-
-version: '3'
 services:
-  client:
-    image: front-end-image:latest
+#   mongo:
+#     image: mongo:latest
+#     container_name: mongo
+#     networks:
+#       - mern-net
+#     ports:
+#       - "27017:27017"
+#     environment:
+#       MONGO_INITDB_ROOT_USERNAME: root
+#       MONGO_INITDB_ROOT_PASSWORD: root
+
+  # backend:
+  #   build: ./server
+  #   container_name: server
+  #   networks:
+  #     - mern-net
+  #   ports:
+  #     - "5000:5000"
+  #   depends_on:
+  #     - mongo
+  #   environment:
+  #     - MONGO_URI=mongodb://root:root@mongo:27017/mern-app?authSource=admin
+
+  frontend:
+    build: ./client
+    container_name: client
+    networks:
+      - mern-net
     ports:
       - "3000:3000"
+    # depends_on:
+    #   - backend
+    # environment:
+    #   - REACT_APP_PUBLIC_FOLDERI=http://localhost:5000/images/
+
+networks:
+  mern-net:
+    driver: bridge
